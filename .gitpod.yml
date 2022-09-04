@@ -1,0 +1,5 @@
+tasks:
+  - name: Example of passing an environment variable to a command
+    env:
+      GOPATH: /workspace/lab-shop-pub-sub
+    command: echo "$GOPATH"
